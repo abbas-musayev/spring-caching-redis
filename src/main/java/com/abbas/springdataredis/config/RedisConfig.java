@@ -9,10 +9,10 @@ import org.springframework.data.redis.repository.configuration.EnableRedisReposi
 import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
+
 @Configuration
 @EnableRedisRepositories
 public class RedisConfig {
-
 
     @Bean
     public JedisConnectionFactory connectionFactory() {
